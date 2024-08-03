@@ -1,0 +1,16 @@
+What You're Aiming For
+
+In this checkpoint, we will reproduce the docplanner website using HTML and CSS.
+
+Here is a link to the site. https://www.docplanner.com/
+
+If the first link doesn't work try this one: https://docplanner-gomycode.onrender.com/
+
+You'll find the following instructions helpful.
+
+
+Instructions
+
+- Try to reproduce and replicate the webpage.
+- This video can help you better understand how to divide your website using divs: https://www.youtube.com/watch?v=iRPPq9vYig4
+- Here you can find the best practices in HTML: https://www.themelocation.com/best-html5-practices/
