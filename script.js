@@ -11,3 +11,4 @@ function addActiveClass(link) {
 for (var i = 0; i < links.length; i++) {
   links[i].addEventListener("click", addActiveClass(links[i]));
 }
+ 
