@@ -10,6 +10,12 @@ body {
 }
 
 /* Navbar */
+header {
+    position: sticky;
+        top: 0;
+        z-index: 10000;
+        background-color: #ffffff;
+}
 
 .navbar {
     display: flex;
@@ -49,7 +55,6 @@ body {
 .dropdown .dropbtn {
     background-color: #ffffff;
     color: rgb(173, 173, 173);
-    ;
     border: none;
     padding: 14px 20px;
     cursor: pointer;
@@ -108,11 +113,11 @@ body {
 }
 
 .paragraphs p {
-    padding: 40px 34px;
+    padding: 40px 15px;
     line-height: 1.75;
     font-weight: 400;
     text-align: start;
-    font-size: 1.2em;
+    
 }
 
 /* second section */
@@ -594,10 +599,6 @@ select {
 }
 
 @media (min-width: 1200px)and (max-width: 1400px) {
-
-    .paragraphs-container {
-        padding: 20px;
-    }
 
     .logo-container {
         flex-direction: column;
