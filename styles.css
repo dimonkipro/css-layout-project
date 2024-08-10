@@ -12,9 +12,9 @@ body {
 /* Navbar */
 header {
     position: sticky;
-        top: 0;
-        z-index: 10000;
-        background-color: #ffffff;
+    top: 0;
+    z-index: 10000;
+    background-color: #ffffff;
 }
 
 .navbar {
@@ -117,7 +117,7 @@ header {
     line-height: 1.75;
     font-weight: 400;
     text-align: start;
-    
+
 }
 
 /* second section */
@@ -174,9 +174,10 @@ select {
 /* Third section */
 
 .logo-container {
-    margin: 10px 280px;
+    margin: 10px 180px;
     display: flex;
     padding: 30px;
+    text-align: center;
 }
 
 .text {
@@ -192,15 +193,13 @@ select {
 .brands-logos {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.1rem;
+    gap: 15px;
     list-style: none;
     line-height: 2;
+    justify-content: center;
 }
 
-.brands-logos li {
-    width: 30%;
-    margin-right: 12px;
-}
+
 
 /* forth section */
 .green-container {
@@ -600,12 +599,6 @@ select {
 
 @media (min-width: 1200px)and (max-width: 1400px) {
 
-    .logo-container {
-        flex-direction: column;
-        text-align: center;
-        margin: 20px;
-        align-items: center;
-    }
 
 
 
